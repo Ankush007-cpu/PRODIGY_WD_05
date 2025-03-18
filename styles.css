@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    transition: background 1s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    overflow: hidden; 
+}
+
+
+body.day-clear {
+    background-image: url('images/day-clear.jpg'), linear-gradient(to top, #a8edea, #fed6e3);
+}
+
+body.day-clouds {
+    background-image: url('images/day-clouds.jpg'), linear-gradient(to top, #d7d2cc, #304352);
+}
+
+body.day-rain {
+    background-image: url('images/day-rain.jpg'), linear-gradient(to top, #4e54c8, #8f94fb);
+}
+
+body.day-thunderstorm {
+    background-image: url('images/day-thunderstorm.jpg'), linear-gradient(to top, #373b44, #4286f4);
+}
+
+body.day-snow {
+    background-image: url('images/day-snow.jpg'), linear-gradient(to top, #e6dada, #274046);
+}
+
+body.day-mist {
+    background-image: url('images/day-mist.jpg'), linear-gradient(to top, #cfd9df, #e2ebf0);
+}
+
+body.day-default {
+    background-image: url('images/day-default.jpg'), linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+}
+
+
+body.night-clear {
+    background-image: url('images/night-clear.jpg'), linear-gradient(to top, #2c3e50, #4ca1af);
+}
+
+body.night-clouds {
+    background-image: url('images/night-clouds.jpg'), linear-gradient(to top, #232526, #414345);
+}
+
+body.night-rain {
+    background-image: url('images/night-rain.jpg'), linear-gradient(to top, #141e30, #243b55);
+}
+
+body.night-thunderstorm {
+    background-image: url('images/night-thunderstorm.jpg'), linear-gradient(to top, #0f2027, #203a43, #2c5364);
+}
+
+body.night-snow {
+    background-image: url('images/night-snow.jpg'), linear-gradient(to top, #1c92d2, #f2fcfe);
+}
+
+body.night-mist {
+    background-image: url('images/night-mist.jpg'), linear-gradient(to top, #3e5151, #decba4);
+}
+
+body.night-default {
+    background-image: url('images/night-default.jpg'), linear-gradient(to top, #0f2027, #203a43, #2c5364);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #333;
+}
