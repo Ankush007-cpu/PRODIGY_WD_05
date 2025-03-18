@@ -19,7 +19,7 @@ This project is a **Weather Web Application** that fetches real-time weather dat
 ## Installation & Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/Ankush007-cpu/PRODIGY_WD_05.git
    ```
 2. Navigate to the project folder:
    ```bash
